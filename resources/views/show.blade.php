@@ -50,74 +50,20 @@
                             <div class="sb-sidenav-menu-heading">Interface</div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
-                                DEMANDES
+                                INTERVENTIONS
                                 <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                <!--
-                                    <a class="nav-link" href="#">Soumettre une demande</a>
-                                    <a class="nav-link" href="#">Liste de mes demandes</a>
-                                    <a class="nav-link" href="#">Attrubuer une demande</a>
-                                    <a class="nav-link" href="#">Traiter une demande</a>
-                                -->
-                                <a class="nav-link" href="#">SOUMETTRE</a>
+                                  <a class="nav-link" href="#">SOUMETTRE</a>
                                     <a class="nav-link" href="#">LISTE </a>
                                     <a class="nav-link" href="#">ATTRUBUER</a>
                                     <a class="nav-link" href="#">TRAITER</a>
                                 </nav>
                             </div>
-                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
-                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                               UTULISATEURS UI
-                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                            </a>
-                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
-                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                    UTULISATEURS
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                                        <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="register.html">Creer compte </a>
-                                            <a class="nav-link" href="register.html">liste des utilisateurs</a>
-                                            <a class="nav-link" href="password.html">utilisateurs connectés</a>
-                                        </nav>
-                                    </div>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
-                                        Error system
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
-                                    </a>
-                                    <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
-                                        <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="401.html">401 Page</a>
-                                            <a class="nav-link" href="404.html">404 Page</a>
-                                            <a class="nav-link" href="500.html">500 Page</a>
-                                        </nav>
-                                    </div>
-                                </nav>
-                            </div>
-                            
-                            <div class="sb-sidenav-menu-heading">INTERVENTIONS</div>
-                            <a class="nav-link" href="#">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                    creer une intervetion
-                                </a>
-                                <a class="nav-link" href="#">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                    Liste des interventions
-                                </a>
-                                <a class="nav-link" href="#">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
-                                    Cloturer intervention
-                                </a>
-                                <a class="nav-link" href="#">
-                                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                    Archives & historiques
-                                </a>
-                            </div>
-                    </div>
+                      </div>
+                      <!---Partie reservées pour gerer la notion de version de l'application et le kit du manielle d'utulisatipon--->
+                      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                     <div class="sb-sidenav-footer">
                         <div class="small">Version:</div>
                         JojoApp Version Stable 1.0
