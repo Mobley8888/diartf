@@ -13,6 +13,12 @@ return new class extends Migration
     {
         Schema::create('demandes', function (Blueprint $table) {
             $table->id();
+            $table->string('structure');
+            $table->string('service');
+            $table->string('agentdemandeur');
+            $table->string('objet');
+            $table->string('motif');
+           
             $table->timestamps();
         });
     }

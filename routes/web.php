@@ -14,10 +14,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+// Route principal si non de départ ou par defaut
+/*
 Route::get('/', function () {
     return view('welcome');
 });
-
+*/
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -33,8 +36,13 @@ require __DIR__.'/auth.php';
 Route::get('/sidebar', function () {
     return view('sidebar');
 });
-Route::get('/layoutapp', function () {
-    return view('layoutapp');
-});
+
+// GESTION DES ROUTES PERMETTANT DE GERER NOTRE APP
+Route::get ('/demandes', [DemandeController:: class,'Liste_Demande']);
+Route::get('/update-demandes/{id}', [DemandeController:: class,'update_Demande']);
+Route::get('/delete-demandes/{id}', [DemandeController:: class,'delete_Demande']);
+Route::Post('/update/traitement', [DemandeController:: class,'update_etudiant_Demande']);
+Route::get('/ajouter', [DemandeController:: class,'Ajouter_Demande']);
+Route::Post('/ajouter/traitement', [DemandeController:: class,'Ajouter_Demande_traitement']);
 
 
