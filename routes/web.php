@@ -38,11 +38,13 @@ Route::get('/sidebar', function () {
 });
 
 // GESTION DES ROUTES PERMETTANT DE GERER NOTRE APP
-Route::get ('/demandes', [DemandeController:: class,'Liste_Demande']);
-Route::get('/update-demandes/{id}', [DemandeController:: class,'update_Demande']);
-Route::get('/delete-demandes/{id}', [DemandeController:: class,'delete_Demande']);
-Route::Post('/update/traitement', [DemandeController:: class,'update_etudiant_Demande']);
-Route::get('/ajouter', [DemandeController:: class,'Ajouter_Demande']);
-Route::Post('/ajouter/traitement', [DemandeController:: class,'Ajouter_Demande_traitement']);
+Route::get ('/demandes', [Demande:: class,'Liste_Demandes']);
+Route::get('/update-demandes/{id}', [Demande:: class,'update_Demandes']);
+Route::get('/delete-demandes/{id}', [Demande:: class,'delete_Demandes']);
+Route::Post('/update/traitement', [Demande:: class,'update_etudiant_Demandes']);
+Route::get('/ajouter', [Demande:: class,'Ajouter_Demandes']);
+Route::Post('/ajouter/traitement', [Demande:: class,'Ajouter_Demandes_traitement']);
+
+//Fin  de la ligne de route  PERMETTANT DE GERER NOTRE APP
 
 
